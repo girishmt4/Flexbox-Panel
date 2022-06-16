@@ -46,3 +46,74 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color:cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.panel {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pricing-plan {
+    border-bottom: 1px solid;
+    border-bottom-color:lavender ;
+}
+
+.pricing-plan:last-child {
+    border-bottom: none;    
+}
+
+.pricing-img {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.pricing-header {
+    color:darkslategray;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.pricing-features {
+    margin: 50px 0px 25px;
+    color: cadetblue;
+}
+
+.pricing-features-item {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0px;
+    border-top: 1px solid;
+    border-top-color: lavender ;
+}
+.pricing-features-item:last-child {
+    border-bottom: 1px solid;
+    border-bottom-color: lavender ;
+}
+
+.pricing-price {
+    color: darkblue;
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+}
