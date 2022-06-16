@@ -117,3 +117,29 @@ body {
     font-size: 32px;
     font-weight: 600;
 }
+
+.pricing-button {
+    border: 1px solid;
+    border-color: cadetblue;
+    border-radius: 10px;
+    color: navy;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0px;
+    transition: all 200ms ease-in-out;
+}
+
+.pricing-button:hover, .pricing-button:focus {
+    background-color:cornflowerblue ;
+}
+
+.pricing-button.is-featured {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus {
+    background-color: navy;
+    color: white;
+}
