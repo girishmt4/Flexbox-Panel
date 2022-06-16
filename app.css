@@ -72,6 +72,7 @@ body {
     text-transform: uppercase;
 }
 
+
 .pricing-plan {
     border-bottom: 1px solid;
     border-bottom-color:lavender ;
@@ -143,3 +144,21 @@ body {
     background-color: navy;
     color: white;
 }
+
+@media (min-width: 900px) {
+    .panel {
+        flex-direction: row;
+    }
+    .pricing-plan {
+        border-bottom: none ;
+        border-right: 1px solid;
+        border-right-color:lavender ;
+        padding: 25px 50px;
+    }
+
+    .pricing-plan:last-child {
+        border-right: none;    
+    }
+}
+
+
